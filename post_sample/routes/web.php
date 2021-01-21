@@ -36,3 +36,10 @@ Route::post('/post/update', 'PostsController@exeUpdate')->name('update');
 //ブログ削除
 Route::post('/post/delete/{id}','PostsController@exeDelete')->name('delete');
 
+
+
+
+
+Route::get('login/google', 'Auth\LoginController@redirectToGoogle');
+Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback');
+

@@ -22,7 +22,7 @@
     <div class="row">
   <div class="col-md-12">
       
-      <table class="table table-striped text-nowrap table-responsive-lg">
+      <table class="table table-striped table-responsive-lg">
           <tr>
               
               <th>記事番号</th>
